@@ -450,42 +450,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     use a simple database manager called
     <a href="http://www.sqlite.org/">SQLite</a> in our lessons.
   </p>
+  <p> Carpentries is now usinsg a tool called DB Browser for SQLite. The install is for <a href="http://sqlitebrowser.org/">all platforms</a>.
+  </p>
 
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="sql-windows">Windows</h4>
-      <p>
-        The <a href="{{site.swc_installer}}">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Library Carpentry
-          {% endif %}
-          Windows Installer
-	</a>
-        installs SQLite for Windows.
-        If you used the installer to configure nano, you don't need to run it again.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-macosx">macOS</h4>
-      <p>
-        SQLite comes pre-installed on macOS.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-linux">Linux</h4>
-      <p>
-        SQLite comes pre-installed on Linux.
-      </p>
-    </div>
-  </div>
-
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
-    <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
-    Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
